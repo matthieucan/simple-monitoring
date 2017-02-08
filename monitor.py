@@ -50,7 +50,7 @@ def main():
     result = []
     for check in checks:
         if check['value'] > check['threshold']:
-            result.append('{} ist at {}%%.'.format(check['name'], check['value']))
+            result.append('{} is at {}%%.'.format(check['name'], check['value']))
 
     if result:
         send_message(args.free_user, args.free_pw, result)
