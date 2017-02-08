@@ -31,7 +31,7 @@ def main():
     parser.add_argument('--free-user', required=True,
                         help='Free Mobile account number')
     parser.add_argument('--free-pw', required=True,
-                        help='Free mobile API token')
+                        help='Free Mobile API token')
     parser.add_argument('--cpu', required=True, type=float,
                         help='Max CPU usage threshold (%%)')
     parser.add_argument('--ram', required=True, type=float,
